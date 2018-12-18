@@ -26,7 +26,7 @@ Resource Owner
 The resource owner is typically a human (but doesn't have to be) that owns a resource (data). The resource owner should
 be the only one, who can grant access to their resources.
 
-A typical resource owner is a customer, who is the owner of thier orders in a shop. Only they should decide, who can access their
+A typical resource owner is a customer, who is the owner of their orders in a shop. Only they should decide, who can access their
 order information. Another example is an employee who owns his/her salary information.
 
 A resource owner is everything, that can authenticate with the authorization server. This can include other services
@@ -44,7 +44,7 @@ Client
 ------
 
 A client is a tool or service, that a resource owner wants to use to read or modify their resources. In order to get
-access to the resource owner's resource, the client can ask the resource owner for thier consent. If the resource owner
+access to the resource owner's resource, the client can ask the resource owner for their consent. If the resource owner
 gives their consent, the client will get a proof that it can forward to the resource server in order to access the
 resource. Clients contain some business logic which requires access to resources. They should not require
 any permission checks themselves.
